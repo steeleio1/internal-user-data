@@ -1,0 +1,139 @@
+.fontfamily {
+	font-family: Maven+Pro;
+}
+
+.main-box {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	align-content: flex-end;
+	// border: solid lightgrey 2px;
+	width: 1300px;
+	flex: 1;
+	margin-left: 100px;
+	margin-top: 0px;
+}
+
+.banner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	// border: solid orange 1px;
+	width: 1300px;
+	height: 100px;
+	margin-left: 55px;
+	color: #2F2F2F;
+
+}
+
+.user-box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	// border: solid red 1px;
+	width: 280px;
+	height: 510px;
+	margin: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+				0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.picbox {
+	display: flex;
+	align-items: center;
+	// border: solid orange 1px;
+	width: 280px;
+	height: 280px;
+
+}
+
+.name {
+	display: inline-flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	// border: solid red 1px;
+	width: 280px;
+	height: 30px;
+	font-size: 20px;
+	margin-top: 15px;
+	color: #131313;
+	text-transform: uppercase;
+}
+
+.email {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	// border: solid yellow 1px;
+	height: 30px;
+	font-size: 15px;
+	border-bottom: solid #92CDB0 3px;
+	margin-top: 15px;
+	text-transform: uppercase;
+	color: #C0C0C0;
+}
+
+.street {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	// border: solid green 1px;
+	width: 280px;
+	height: 20px;
+	font-size: 15px;
+	margin-top: 12px;
+	color: #8C8C8C;
+}
+
+.address {
+	display: inline-flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	// border: solid blue1px;
+	width: 280px;
+	height: 20px;
+	font-size: 15px;
+	color: #8C8C8C;
+
+}
+
+.phone {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	// border: solid indigo 1px;
+	width: 280px;
+	height: 30px;
+	font-size: 15px;
+	margin-top: 8px;
+	color: #8C8C8C;
+}
+
+.ssnum {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	// border: solid violet 1px;
+	width: 280px;
+	height: 30px;
+	font-size: 13px;
+	color: transparent;
+	text-shadow: 0 0 5px #92CDB0;
+
+}
+
+.ssnum :hover{
+
+
+}
